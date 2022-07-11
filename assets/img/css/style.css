@@ -1,18 +1,10 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
 .video {
     padding-top: 10px;
     margin-left: 10px;
     display: flex;
 }
 
-.footer {
-    width: 100%;
-}
+
 
 .ropaProductos h3 {
     text-align: center;
@@ -48,14 +40,4 @@
     text-decoration: underline;
     height: 20px;
     font-size: 40px;
-}
-
-.btn {
-    width: 200px;
-    margin-left: 45px;
-    margin-bottom: 3px;
-    background-color: #ab2480;
-    color: white;
-    border-radius: 5px;
-    border: 0px;
 }

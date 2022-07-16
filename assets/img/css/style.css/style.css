@@ -1,0 +1,79 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.video {
+  padding-top: 10px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.ropaProductos .ropaTC {
+  color: #ab2480;
+  text-decoration: underline;
+  height: 20px;
+  font-size: 40px;
+  text-align: center;
+  font-family: serif;
+}
+.ropaProductos .contenedorProducto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 40px;
+  font-family: serif;
+  font-weight: 30px;
+}
+.ropaProductos .contenedorProducto .cajaProducto {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.ropaProductos .contenedorProducto .cajaProducto img {
+  width: 295px;
+  padding: 6px;
+}
+.ropaProductos .contenedorProducto .cajaProducto .textoMC {
+  margin-left: 35px;
+}
+.ropaProductos .contenedorProducto .cajaProducto .btn, .ropaProductos .contenedorProducto .cajaProducto .btn-key {
+  width: 200px;
+  margin-left: 45px;
+  margin-bottom: 3px;
+  background-color: #ab2480;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+}
+.ropaProductos .contenedorProducto .cajaProducto .footer {
+  width: 100%;
+}
+
+.btn, .btn-key {
+  padding: 10px 15px;
+  border: 0px;
+  border-radius: 0px;
+  width: 100px;
+  height: auto;
+  color: #000;
+}
+
+.btn-key {
+  background-color: rgb(235, 16, 16);
+}
+
+.btn-key {
+  background-color: rgb(13, 182, 7);
+}
+
+.btn-key {
+  background-color: rgb(19, 216, 190);
+}
+
+.footer {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

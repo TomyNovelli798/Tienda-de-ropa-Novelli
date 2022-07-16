@@ -4,8 +4,6 @@
     display: flex;
 }
 
-
-
 .ropaProductos h3 {
     text-align: center;
     font-family: serif;
@@ -42,8 +40,20 @@
     font-size: 40px;
 }
 
-.btn, .btn-terciario, .btn-secundario, .btn-primario{
+.btn, .btn-key {
     padding: 10px 15px;
     border: 0px;
     border-radius: 0px;
 }
+
+.btn-key {
+    background-color: rgb(235, 16, 16);
+}
+
+.btn-key {
+    background-color: rgb(13, 182, 7);
+}
+
+.btn-key {
+    background-color: rgb(19, 216, 190)
+};

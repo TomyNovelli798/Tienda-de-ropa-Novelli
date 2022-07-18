@@ -40,7 +40,7 @@
 .ropaProductos .contenedorProducto .cajaProducto .textoMC {
   margin-left: 35px;
 }
-.ropaProductos .contenedorProducto .cajaProducto .btn, .ropaProductos .contenedorProducto .cajaProducto .btn-key {
+.ropaProductos .contenedorProducto .cajaProducto .btn {
   width: 200px;
   margin-left: 45px;
   margin-bottom: 3px;
@@ -53,27 +53,12 @@
   width: 100%;
 }
 
-.btn, .btn-key {
-  padding: 10px 15px;
+.btn {
+  width: 200px;
+  margin-left: 45px;
+  margin-bottom: 3px;
+  background-color: #ab2480;
+  color: white;
+  border-radius: 5px;
   border: 0px;
-  border-radius: 0px;
-  width: 100px;
-  height: auto;
-  color: #000;
-}
-
-.btn-key {
-  background-color: rgb(235, 16, 16);
-}
-
-.btn-key {
-  background-color: rgb(13, 182, 7);
-}
-
-.btn-key {
-  background-color: rgb(19, 216, 190);
-}
-
-.footer {
-  width: 100%;
 }/*# sourceMappingURL=style.css.map */

@@ -1,30 +1,9 @@
-$colores:(
-    primario: rgb(235, 16, 16),
-    secundario: rgb(13, 182, 7),
-    teciario: rgb(19, 216, 190),
-);
-
-$btn:(
-    padding: 10px 15px,
-    border: 0px,
-    radio: 0px,
-);
-
-@mixin propiedades($ancho, $alto, $colorLetra) {
-    width: $ancho;
-    height: $alto;
-    color: $colorLetra;
-}
 .btn{
-    padding: map-get($btn , padding );
-    border: map-get($btn , border);
-    border-radius: map-get($btn , radio);
-    @include propiedades (100px, auto, #000)
-}
-
-@each $key , $var in $colores {
-    .btn-#{key}{ 
-        @extend .btn;
-    background-color:$var;
-    }
+    width: 200px;
+    margin-left: 45px;
+    margin-bottom: 3px;
+    background-color: #ab2480;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
 }

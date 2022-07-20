@@ -40,12 +40,18 @@
     font-size: 40px;
 }
 
-.btn{
-    width: 200px;
-    margin-left: 45px;
-    margin-bottom: 3px;
-    background-color: #ab2480;
-    color: white;
-    border-radius: 5px;
+.btn,.btn-key{
+    padding: 10px 15px;
     border: 0px;
+    border-radius: 0px;
+}
+
+.btn-key{
+    background-color:rgb(233, 14, 14) ;
+}
+.btn-key{
+    background-color:rgb(35, 224, 17) ;
+}
+.btn-key{
+    background-color:rgb(17, 137, 235) ;
 }

@@ -1,65 +1,3 @@
-.container{
-    background-color: darkgray;
-}
-
-.video {
-    padding-top: 10px;
-    margin-left: 10px;
-    display: flex;
-}
-
-.ropaProductos h3 {
-    text-align: center;
-    font-family: serif;
-}
-
-.contenedorProducto {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-    font-family: serif;
-    font-weight: 30px;
-}
-
-.cajaProducto {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #000;
-    border-radius: 10px;
-}
-
-.cajaProducto img {
-    width: 295px;
-    padding: 6px;
-}
-
-.textoMC {
-    margin-left: 35px;
-}
-
-.ropaTC {
-    color: #ab2480;
-    text-decoration: underline;
-    height: 20px;
-    font-size: 40px;
-}
-
-.btn,.btn-key{
-    padding: 10px 15px;
-    border: 0px;
-    border-radius: 0px;
-}
-
-.btn-key{
-    background-color:rgb(233, 14, 14) ;
-}
-.btn-key{
-    background-color:rgb(35, 224, 17) ;
-}
-.btn-key{
-    background-color:rgb(17, 137, 235) ;
-}
-
 .contactoH2{
     text-align: center;
     color: #000;
@@ -109,4 +47,3 @@
     margin: 7px 0px;
     font-size: 16px;
 }
-

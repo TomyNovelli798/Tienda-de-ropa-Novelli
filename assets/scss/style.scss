@@ -1,6 +1,7 @@
 @import "repositorio";
 @import "video";
 @import "productos";
+@import "registro";
 
 $colores:(
     primario: rgb(233, 14, 14)
@@ -32,6 +33,3 @@ $btn:(
         background-color: $var;
         }
 }
-
-
-

@@ -11,7 +11,7 @@
 }
 
 .ropaProductos .ropaTC {
-  color: #ab2480;
+  color:#24303c;
   text-decoration: underline;
   height: 20px;
   font-size: 40px;
@@ -44,7 +44,7 @@
   width: 200px;
   margin-left: 45px;
   margin-bottom: 3px;
-  background-color: #ab2480;
+  background-color:#24303c;
   color: white;
   border-radius: 5px;
   border: 0px;
@@ -69,10 +69,13 @@
   background-color:rgb(17, 137, 235) ;
 }
 
-.contactoH2{
+.contactoTitulo h2{
   text-align: center;
-  color: #000;
+  color:#24303c;
   text-decoration: underline;
+  font-family: serif;
+  height: 20px;
+  font-size: 40px;
 }
 .registro{
   width: 400px;
@@ -118,4 +121,13 @@
   margin: 7px 0px;
   font-size: 16px;
 }
+
+.preguntaFrecuente{
+  text-align: center;
+  color:#24303c;
+  text-decoration: underline;
+  font-family: serif;
+  height: 20px;
+  font-size: 40px;
+  }
 /*# sourceMappingURL=style.css.map */

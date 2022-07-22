@@ -1,6 +1,4 @@
-.container{
-    background-color: darkgray;
-}
+
 
 .video {
     padding-top: 10px;
@@ -38,7 +36,7 @@
 }
 
 .ropaTC {
-    color: #ab2480;
+    color:#24303c;
     text-decoration: underline;
     height: 20px;
     font-size: 40px;
@@ -60,10 +58,13 @@
     background-color:rgb(17, 137, 235) ;
 }
 
-.contactoH2{
+.contactoTitulo h2{
     text-align: center;
-    color: #000;
+    color:#24303c;
     text-decoration: underline;
+    font-family: serif;
+    height: 20px;
+    font-size: 40px;
 }
 .registro{
     width: 400px;
@@ -108,5 +109,14 @@
     color: white;
     margin: 7px 0px;
     font-size: 16px;
+}
+
+.preguntaFrecuente{
+    text-align: center;
+    color:#24303c;
+    text-decoration: underline;
+    font-family: serif;
+    height: 20px;
+    font-size: 40px;
 }
 

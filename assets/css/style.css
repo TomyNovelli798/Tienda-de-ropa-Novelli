@@ -1,4 +1,9 @@
-
+.fondo{
+    background-image:url(https://fondosmil.com/fondo/456.jpg) ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .video {
     padding-top: 10px;
@@ -22,7 +27,7 @@
 .cajaProducto {
     display: flex;
     flex-direction: column;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     border-radius: 10px;
 }
 
@@ -33,10 +38,11 @@
 
 .textoMC {
     margin-left: 35px;
+    color: white;
 }
 
 .ropaTC {
-    color:#24303c;
+    color: #fff;
     text-decoration: underline;
     height: 20px;
     font-size: 40px;
@@ -60,7 +66,7 @@
 
 .contactoTitulo h2{
     text-align: center;
-    color:#24303c;
+    color:#fff;
     text-decoration: underline;
     font-family: serif;
     height: 20px;
@@ -106,14 +112,17 @@
     background: #1f53c5;
     border: none;
     padding: 12px;
-    color: white;
+    color: #24303c;
     margin: 7px 0px;
     font-size: 16px;
+}
+.preguntas{
+    color: #fff;
 }
 
 .preguntaFrecuente{
     text-align: center;
-    color:#24303c;
+    color:#fff;
     text-decoration: underline;
     font-family: serif;
     height: 20px;
@@ -122,9 +131,19 @@
 
 .terminosCond{
     text-align: center;
-    color:#24303c;
+    color:#fff;
     text-decoration: underline;
     font-family: serif;
     height: 20px;
     font-size: 40px;
+}
+.textosF{
+    color: #fff;
+}
+
+.terminosTodo{
+    color: #fff;
+}
+.parrafoC{
+    color: #fff;
 }

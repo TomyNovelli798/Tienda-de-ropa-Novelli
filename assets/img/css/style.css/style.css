@@ -10,14 +10,7 @@
   display: flex;
 }
 
-.ropaProductos .ropaTC {
-  color: #ab2480;
-  text-decoration: underline;
-  height: 20px;
-  font-size: 40px;
-  text-align: center;
-  font-family: serif;
-}
+
 .ropaProductos .contenedorProducto {
   display: flex;
   flex-wrap: wrap;
@@ -51,4 +44,6 @@
 }
 .ropaProductos .contenedorProducto .cajaProducto .footer {
   width: 100%;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

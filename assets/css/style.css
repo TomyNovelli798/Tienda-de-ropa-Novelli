@@ -6,9 +6,17 @@
 }
 
 .video {
-    padding-top: 10px;
-    margin-left: 10px;
+    padding-top: 20px;
+    margin-left: 45px;
+    gap: 20px;
     display: flex;
+}
+.tituloMapa{
+    color: #fff;
+    font-family: serif;
+    text-decoration: underline;
+    font-size: 40px;
+    padding-top: 30px;
 }
 
 .ropaProductos h3 {

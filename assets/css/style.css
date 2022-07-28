@@ -4,7 +4,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.navbar-brand{
+    width: 400px;
+}
 .video {
     padding-top: 20px;
     margin-left: 45px;

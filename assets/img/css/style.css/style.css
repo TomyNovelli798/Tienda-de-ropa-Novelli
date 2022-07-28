@@ -3,7 +3,9 @@
   padding: 0%;
   box-sizing: border-box;
 }
-
+.navbar-brand{
+  width: 400px;
+}
 .video {
   padding-top: 10px;
   margin-left: 10px;

@@ -12,6 +12,8 @@
     margin-left: 45px;
     gap: 20px;
     display: flex;
+    flex-wrap: wrap;
+    gap:10px;
 }
 .tituloMapa{
     color: #fff;
@@ -19,6 +21,7 @@
     text-decoration: underline;
     font-size: 40px;
     padding-top: 30px;
+    margin-left: 11px;
 }
 
 .ropaProductos h3 {
@@ -32,6 +35,8 @@
     padding: 40px;
     font-family: serif;
     font-weight: 30px;
+    flex-wrap: wrap;
+    gap:10px;
 }
 
 .cajaProducto {
@@ -57,23 +62,15 @@
     height: 20px;
     font-size: 40px;
 }
-
-.btn,.btn-key{
-    padding: 10px 15px;
+.btn {
+    width: 200px;
+    margin-left: 45px;
+    margin-bottom: 3px;
+    background-color: #1ac08e;
+    color:#000;
+    border-radius: 5px;
     border: 0px;
-    border-radius: 0px;
-}
-
-.btn-key{
-    background-color:rgb(233, 14, 14) ;
-}
-.btn-key{
-    background-color:rgb(35, 224, 17) ;
-}
-.btn-key{
-    background-color:rgb(17, 137, 235) ;
-}
-
+    }
 .contactoTitulo h2{
     text-align: center;
     color:#fff;
@@ -126,10 +123,6 @@
     margin: 7px 0px;
     font-size: 16px;
 }
-.preguntas{
-    color: #fff;
-}
-
 .preguntaFrecuente{
     text-align: center;
     color:#fff;
@@ -137,6 +130,14 @@
     font-family: serif;
     height: 20px;
     font-size: 40px;
+}
+.textosF{
+    color: #fff;
+    margin-left: 5px;
+}
+.preguntas{
+    color: #fff;
+    margin-left: 5px;
 }
 
 .terminosCond{
@@ -147,13 +148,13 @@
     height: 20px;
     font-size: 40px;
 }
-.textosF{
-    color: #fff;
-}
 
 .terminosTodo{
     color: #fff;
+    padding-top: 65px;
+    margin-left: 5px;
 }
 .parrafoC{
     color: #fff;
+    margin-left: 5px;
 }

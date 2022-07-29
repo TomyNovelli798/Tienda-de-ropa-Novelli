@@ -3,16 +3,36 @@
   padding: 0%;
   box-sizing: border-box;
 }
-.navbar-brand{
+
+.navbar-brand {
   width: 400px;
 }
+
 .video {
-  padding-top: 10px;
-  margin-left: 10px;
+  padding-top: 20px;
+  margin-left: 40px;
+  gap: 20px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
+.tituloMapa {
+  color: #fff;
+  font-family: serif;
+  text-decoration: underline;
+  font-size: 40px;
+  padding-top: 30px;
+}
 
+.ropaProductos .ropaTC {
+  color: #24303c;
+  text-decoration: underline;
+  height: 20px;
+  font-size: 40px;
+  text-align: center;
+  font-family: serif;
+}
 .ropaProductos .contenedorProducto {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +59,7 @@
   width: 200px;
   margin-left: 45px;
   margin-bottom: 3px;
-  background-color: #ab2480;
+  background-color: #24303c;
   color: white;
   border-radius: 5px;
   border: 0px;
@@ -48,4 +68,107 @@
   width: 100%;
 }
 
-/*# sourceMappingURL=style.css.map */
+.contactoTitulo h2 {
+  text-align: center;
+  color: #24303c;
+  text-decoration: underline;
+  font-family: serif;
+  height: 20px;
+  font-size: 40px;
+}
+
+.registro {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.registro h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: serif;
+  font-size: 18px;
+}
+
+.registro p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.registro a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.registroBtn {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 7px 0px;
+  font-size: 16px;
+}
+
+.preguntaFrecuente {
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+  font-family: serif;
+  height: 20px;
+  font-size: 40px;
+}
+
+.textosF {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.preguntas {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.terminosCond {
+  text-align: center;
+  color: #24303c;
+  text-decoration: underline;
+  font-family: serif;
+  height: 20px;
+  font-size: 40px;
+}
+
+.terminosTodo {
+  color: #fff;
+}
+
+.parrafoC {
+  color: #fff;
+}
+
+.btn {
+  width: 200px;
+  margin-left: 45px;
+  margin-bottom: 3px;
+  background-color: #1ac08e;
+  color: #000;
+  border-radius: 5px;
+  border: 0px;
+}/*# sourceMappingURL=style.css.map */
